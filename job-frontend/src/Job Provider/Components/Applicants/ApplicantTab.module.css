@@ -1,0 +1,68 @@
+.rowStyle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.manageUsers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.col {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.span {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.searchBar {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.searchBar:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.tableBox {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.tableHeader {
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.tableBody tr:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.text-center {
+  margin-top: 20px;
+  font-size: 1.25rem;
+  color: #666;
+}
