@@ -74,7 +74,7 @@ function Jobitem({ item, jobApply }) {
           >
             {item.status === "Shortlisted" ? (
               <span>
-                Shortlisted <i className="bi bi-heart-fill"></i>
+                Shortlisted
               </span>
             ) : (
               item.status

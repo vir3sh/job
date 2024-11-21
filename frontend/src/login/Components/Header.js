@@ -10,10 +10,7 @@ function Header() {
           <Navbar.Brand className=" text-primary font-italic " href="/login">
             {/* <i className="bi bi-search"></i> */}
             <span className="d-flex">
-              <i
-                className="bi bi-search"
-                style={{ fontSize: "1.75rem", margin: "0px 6px" }}
-              ></i>
+            
               <h1> </h1>
             </span>
           </Navbar.Brand>

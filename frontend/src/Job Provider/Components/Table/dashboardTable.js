@@ -14,9 +14,7 @@ const Table1 = (props) => {
   return (
     <React.Fragment>
       <Row className={classes.rowStyle}>
-        <Col>
-          <span className={`${classes.span} float-start`}>Recent Jobs</span>
-        </Col>
+    
         <Col>
           <Button
             className={`${classes.button} float-end`}

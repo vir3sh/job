@@ -12,9 +12,9 @@ const JobsTable = (props) => {
   return (
     <React.Fragment>
       <Row className={classes.rowStyle}>
-        <Col>
+        {/* <Col>
           <span className={`${classes.span} float-start`}>Recent Jobs</span>
-        </Col>
+        </Col> */}
         <Col>
           <Button
             className={`${classes.button} float-end`}

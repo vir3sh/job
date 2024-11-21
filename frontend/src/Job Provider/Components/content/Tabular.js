@@ -40,9 +40,7 @@ const Tabular = () => {
     <React.Fragment>
       <Container>
         <Row className={classes.rowStyle}>
-          <Col>
-            <span className={`${classes.span} float-start`}>Recent Jobs</span>
-          </Col>
+      
           <Col>
             <Button className={`${classes.button} float-end`}>View All</Button>
           </Col>
